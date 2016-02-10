@@ -14,9 +14,8 @@ body {
   left:0;
   height:50px;
   /*margin:auto;*/
-  padding-bottom: 3px;
   z-index: 100000;
-  font-size: 4vh;
+  font-size: 2rem;
   text-align: center;
   width: 100%;
   background: #9C0;
@@ -27,23 +26,44 @@ body {
 
 .inner > ul {
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   height: 50px;
   list-style: none;
 
   flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner > ul > li {
     display: inline-block;
     position: relative;
-    float: left;
+    /*float: left;*/
     height: 100%;
-    align-self: flex-start;
+    line-height: 50px;
+    vertical-align: middle;
+    /*align-self: center;*/
+    margin: 0 200px;
 }
+
+#globe {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+}
+
+#lang-select {
+  height: 20px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+#lang-select:focus {
+  outline: none;
+}
+
 #content {
   color: #6B6B6B;
   background-color: inherit;
@@ -58,7 +78,7 @@ p {
   line-height: 1.5rem;
 }
 
-ul {
+#credits ul {
   display: flex;
   margin: 0;
   padding: 0;
@@ -68,14 +88,14 @@ ul {
   justify-content: center;
 }
 
-li {
+#credits li {
   display: inline-block;
   margin: 10px 0;
   width: 188px;
   text-align: center;
 }
 
-li img {
+#credits li img {
   margin: 10px 23px;
   border: 2px;
   border-style: solid;
