@@ -95,12 +95,8 @@ li img {
   text-align: center;
 }
 
-a:link {
-  color: #6B6B6B;
-  text-decoration: none;
-}
-a:visited {
-  color: #6B6B6B;
+a:link, a:visited {
+  color: #9C0;
   text-decoration: none;
 }
 a:hover {
