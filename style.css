@@ -56,22 +56,6 @@ body {
 
 p {
   line-height: 1.5rem;
-  a:link {
-    color: #6B6B6B;
-    text-decoration: none;
-  }
-  a:visited {
-    color: #6B6B6B;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #000000;
-    text-decoration: none;
-  }
-  a:active {
-    color: #000000;
-    text-decoration: underline;
-  }
 }
 
 ul {
@@ -111,6 +95,22 @@ li img {
   text-align: center;
 }
 
+a:link {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+a:visited {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:active {
+  color: #000000;
+  text-decoration: underline;
+}
 
 /*
 ui-blue - #25AFF4
