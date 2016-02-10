@@ -124,11 +124,6 @@ a:active {
   background-color: #B3B3B3;
 }
 
-/* container <div> */
-.dropdown {
-  float: right;
-}
-
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
