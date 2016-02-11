@@ -131,6 +131,7 @@ a:active {
   background-color: #F2F2F2;
   min-width: 160px; /* this value can be changed as needed */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
 
 /* Links inside the dropdown */
