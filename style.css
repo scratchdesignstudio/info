@@ -111,10 +111,10 @@ a:active {
 
 /* dropdown button */
 .dropdownButton {
-  background-color: #F2F2F2;
+  background-color: #9C0;
   color: #FFFFFF;
   padding: 0px;
-  font-size: 16px;
+  font-size: 4vh;
   border: none;
   cursor: pointer;
 }
