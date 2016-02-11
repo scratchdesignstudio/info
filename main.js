@@ -20,11 +20,6 @@ window.onclick = function(e){
 
 // I'm thinking we put the translations here so that we can use .innerHTML
 
-// Title of the SDS
-var sdsTitleEnglish = "Remix-a-thon!";
-var sdsTitleFrench;
-var sdsTitleSpanish;
-var sdsTitleGerman;
 // Part of the description that changes from SDS to SDS
 var sdsDescriptionEnglish;
 var sdsDescriptionFrench;
