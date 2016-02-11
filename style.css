@@ -100,11 +100,11 @@ a:link, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #000000;
+  color: #669900;
   text-decoration: none;
 }
 a:active {
-  color: #000000;
+  color: #360;
   text-decoration: underline;
 }
 /* entering dropdown zone */
@@ -114,7 +114,7 @@ a:active {
   height: 50px;
   background-color: #9C0;
   color: #FFFFFF;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 5px;
   font-size: 1rem;
   border: none;
   cursor: pointer;
@@ -140,8 +140,13 @@ a:active {
 .dropdown-content a {
   color: #6B6B6B;
   padding: 12px 16px;
+  font-size: 0.6em;
   text-decoration: none;
   display: block;
+}
+
+.dropdown-content a:not(:last-child) {
+  border-bottom: 1px solid #E6E6E6;
 }
 
 /* Change color of dropdown links on hover */
@@ -149,6 +154,9 @@ a:active {
   background-color: #B3B3B3;
 }
 
+.dropdown-content a:hover:not(:last-child){
+  border-bottom: 1px solid #B3B3B3;
+}
 /* Show the dropdown menu */
 .show {
   display: block;
