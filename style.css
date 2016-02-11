@@ -114,7 +114,7 @@ a:active {
   height: 50px;
   background-color: #9C0;
   color: #FFFFFF;
-  padding: 0px;
+  padding: 0px 5px 0px 5px;
   font-size: 1rem;
   border: none;
   cursor: pointer;
