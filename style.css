@@ -1,3 +1,8 @@
+@font-face {
+    font-family: scratchFont;
+    src: url(scratch.tff);
+}
+
 html, body{
   height: 100%;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -44,6 +49,12 @@ body {
     margin-right: 30px;
     margin-left: 10px;
 }
+
+/*#name {
+  font-family: scratchFont;
+  letter-spacing: 1.1px;
+}*/
+
 #content {
   color: #6B6B6B;
   background-color: inherit;
@@ -56,6 +67,12 @@ body {
 
 p {
   line-height: 1.5rem;
+}
+
+#sdsTitle {
+  font-family: scratchFont;
+  font-size: 3em;
+  color: #824DCB;
 }
 
 #credits ul {
