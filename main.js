@@ -18,6 +18,18 @@ window.onclick = function(e){
   }
 }
 
+// I'm thinking we put the translations here so that we can use .innerHTML
+var sdsTitleEnglish;
+var sdsTitleEnglish;
+var sdsDescriptionEnglish;
+var sdsDescriptionFrench;
+var sdsDescriptionSpanish;
+var sdsDescriptionGerman;
+var sdsDescriptionEnglish2;
+var sdsDescriptionFrench2;
+var sdsDescriptionSpanish2;
+var sdsDescriptionGerman2;
+
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
   document.getElementById('dropButton').innerHTML = l; // set the button text to the selected option
