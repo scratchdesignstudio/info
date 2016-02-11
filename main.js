@@ -20,7 +20,9 @@ window.onclick = function(e){
 
 // I'm thinking we put the translations here so that we can use .innerHTML
 var sdsTitleEnglish;
-var sdsTitleEnglish;
+var sdsTitleFrench;
+var sdsTitleSpanish;
+var sdsTitleGerman;
 var sdsDescriptionEnglish;
 var sdsDescriptionFrench;
 var sdsDescriptionSpanish;
