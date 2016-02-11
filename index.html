@@ -12,12 +12,12 @@
         <li>sds</li>
         <li>
           <div class="dropdown" id="dropdown">
-            <button onclick="dropit()" class="dropdownButton" id="dropButton">English ▼</button>
+            <button onclick="dropit()" class="dropdownButton" id="dropButton">English ▾</button>
             <div id="dropOptions" class="dropdown-content">
-              <a onclick="languageSelect('English')">English</a>
-              <a onclick="languageSelect('Spanish')">Spanish</a>
-              <a onclick="languageSelect('French')">French</a>
-              <a onclick="languageSelect('German')">German</a>
+              <a onclick="languageSelect(this.innerHTML)">English</a>
+              <a onclick="languageSelect(this.innerHTML)">Español</a>
+              <a onclick="languageSelect(this.innerHTML)">Français</a>
+              <a onclick="languageSelect(this.innerHTML)">Deutsch</a>
             </div>
           </div>
         </li>

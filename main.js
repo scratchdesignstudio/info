@@ -33,5 +33,5 @@ var sdsDescriptionGerman2;
 
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
-  document.getElementById('dropButton').innerHTML = l + " ▼"; // set the button text to the selected option
+  document.getElementById('dropButton').innerHTML = l + " ▾"; // set the button text to the selected option
 }
