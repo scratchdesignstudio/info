@@ -14,9 +14,8 @@ body {
   left:0;
   height:50px;
   /*margin:auto;*/
-  padding-bottom: 3px;
   z-index: 100000;
-  font-size: 4vh;
+  font-size: 2rem;
   text-align: center;
   width: 100%;
   background: #9C0;
@@ -27,7 +26,7 @@ body {
 
 .inner > ul {
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   height: 50px;
   list-style: none;
@@ -35,14 +34,15 @@ body {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .inner > ul > li {
     display: inline-block;
     position: relative;
-    float: left;
-    height: 100%;
-    align-self: flex-start;
+    vertical-align: middle;
+    margin-right: 30px;
+    margin-left: 10px;
 }
 #content {
   color: #6B6B6B;
@@ -58,7 +58,7 @@ p {
   line-height: 1.5rem;
 }
 
-ul {
+#credits ul {
   display: flex;
   margin: 0;
   padding: 0;
@@ -68,14 +68,14 @@ ul {
   justify-content: center;
 }
 
-li {
+#credits li {
   display: inline-block;
   margin: 10px 0;
   width: 188px;
   text-align: center;
 }
 
-li img {
+#credits li img {
   margin: 10px 23px;
   border: 2px;
   border-style: solid;
@@ -111,17 +111,19 @@ a:active {
 
 /* dropdown button */
 .dropdownButton {
+  height: 50px;
   background-color: #9C0;
   color: #FFFFFF;
   padding: 0px;
-  font-size: 3vh;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
 .dropdownButton:hover, .dropdownButton:focus {
-  background-color: #B3B3B3;
+  background-color: #80B300;
+  outline: none;
 }
 
 /* Dropdown Content (Hidden by Default) */
