@@ -3,6 +3,7 @@
   <head>
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src='l10n.js'></script>
     <script src='main.js'></script>
     <title>SDS Info</title>
   </head>
@@ -14,10 +15,10 @@
           <div class="dropdown" id="dropdown">
             <button onclick="dropit()" class="dropdownButton" id="dropButton">English ▾</button>
             <div id="dropOptions" class="dropdown-content">
-              <a onclick="languageSelect(this.innerHTML)">English</a>
-              <a onclick="languageSelect(this.innerHTML)">Español</a>
-              <a onclick="languageSelect(this.innerHTML)">Français</a>
-              <a onclick="languageSelect(this.innerHTML)">Deutsch</a>
+              <a data-locale="en" onclick="languageSelect(this)">English</a>
+              <a data-locale="es" onclick="languageSelect(this)">Español</a>
+              <a data-locale="fr" onclick="languageSelect(this)">Français</a>
+              <a data-locale="de" onclick="languageSelect(this)">Deutsch</a>
             </div>
           </div>
         </li>
@@ -25,7 +26,7 @@
     </div>
     <div id="content">
       <h2 id="sdsTitle">Remix-a-thon!</h2>
-      <p id="sdsDescription">
+      <p id="uniqueDescription">
         Remixing is an important part of Scratch! Celebrate it in this Scratch Design Studio!
         <br/><br/>
         Remix one of the projects below, and add your own ideas!<br/>
@@ -46,7 +47,7 @@
         <a href="https://scratch.mit.edu/projects/96160058/">https://scratch.mit.edu/projects/96160058/</a>
         <br/><br/>
       </p>
-      <p id="sdsDescription2">
+      <p id="standardDescription">
         To have your project added to this studio, please post a comment with a link. You can find a link to your project by clicking the ‘Embed’ button on the project page. The link will be directly below the Facebook logo.
         <br/>
         Please submit a single project made no earlier than one month before the start of this Design studio. However, you can update your project, and it'll be eligible again. If you have an older project that would fit, add some new features and feel free to submit the updated version!
@@ -75,7 +76,7 @@
 
         <br/></p>
       <div id="credits">
-        <h2>The SDS is curated by</h2>
+        <h2 id="curatorString">The SDS is curated by</h2>
         <ul>
           <li>
               <img src="//cdn.scratch.mit.edu/get_image/user/8378318_170x170.png" alt="4LeafClovR Avatar" />

@@ -33,5 +33,8 @@ var sdsDescriptionGerman2;
 
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
-  document.getElementById('dropButton').innerHTML = l + " ▾"; // set the button text to the selected option
+  var locale = l10n[l.getAttribute('data-locale')];
+  document.getElementById('dropButton').innerHTML = l.innerHTML + " ▾"; // set the button text to the selected option
+  document.getElementById('standardDescription').innerHTML = locale.standard;
+  document.getElementById('curatorString').innerHTML = locale.curators;
 }
