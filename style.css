@@ -70,7 +70,7 @@ p {
 }
 
 #sdsTitle {
-  font-family: scratchFont;
+  /* font-family: scratchFont; */
   font-size: 3em;
   color: #824DCB;
 }
