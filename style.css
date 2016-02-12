@@ -1,6 +1,6 @@
 @font-face {
     font-family: scratchFont;
-    src: url(scratch.tff);
+    src: local(scratch.tff);
 }
 
 html, body{
