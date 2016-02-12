@@ -13,6 +13,6 @@ var l10n = {
   },
   "de": {
     "standard":"german filler text",
-    "curators":"German for \"These are the curators\""
+    "curators":"Die Kuratoren des SDS sind"
   }
 }
