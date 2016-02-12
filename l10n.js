@@ -9,7 +9,7 @@ var l10n = {
   },
   "fr": {
     "standard":"french filler text",
-    "curators":"French for \"These are the curators\""
+    "curators":"Le ACS est organisé par"
   },
   "de": {
     "standard":"german filler text",
