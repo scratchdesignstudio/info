@@ -72,7 +72,8 @@ p {
 #sdsTitle {
   /* font-family: scratchFont; */
   font-size: 3em;
-  color: #824DCB;
+  font-weight: bold;
+  /*color: #824DCB; Purple doesn't look great, other suggestions? */
 }
 
 #credits ul {
