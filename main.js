@@ -16,20 +16,7 @@ window.onclick = function(e){
       }
     }
   }
-}
-
-// I'm thinking we put the translations here so that we can use .innerHTML
-
-// Part of the description that changes from SDS to SDS
-var sdsDescriptionEnglish;
-var sdsDescriptionFrench;
-var sdsDescriptionSpanish;
-var sdsDescriptionGerman;
-// Part of the description that is copy/pasted from SDS to SDS
-var sdsDescriptionEnglish2;
-var sdsDescriptionFrench2;
-var sdsDescriptionSpanish2;
-var sdsDescriptionGerman2;
+};
 
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
