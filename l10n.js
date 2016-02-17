@@ -5,14 +5,17 @@ var l10n = {
     "curators":"The SDS is curated by"
   },
   "es": {
+    "unique":"spanish description here",
     "standard":"spanish filler text",
     "curators":"Los curadores del EDS son"
   },
   "fr": {
+    "unique":"french description here",
     "standard":"french filler text",
     "curators":"Le ACS est organisé par"
   },
   "de": {
+    "unique":"german description here",
     "standard":"Um dein Projekt dem Studio hinzuzufügen, poste bitte einen Kommentar mit dem entsprechenden Link. Du kannst den Link zu deinem Projekt finden, indem du auf der Projektseite auf 'Einbinden' klickst. Der link ist direkt unter dem Facebook-Logo.\n        <br/>\n        Reiche bitte nur ein Projekt, das nicht älter als 1 Monat ist, ein. Du kannst aber ein älteres Projekt updaten! Wenn du also ein älteres Projekt hast, das passen würde, füge einige neue Features hinzu und reiche es ein.\n        <br/>\n        Alle Projekte müssen die Community Guidelines befolgen und für alle Altersstufen angemessen sein.\n        <br/>\n        Es kann einige Zeit dauern, bis dein Projekt hinzugefügt wird. Wir bitten um Geduld - du musst den Link nicht erneut posten!\n        <br/><br/>\n\n        SDS (Scratch Design Studio) ist ein Studio, bei dem jeder Scratcher ein Projekt, das zum aktuellen Thema passt und alle Bedingungen erfüllt, einreichen kann.\n        <!-- No br here as it looks fine without -->\n        Schau dir dieses Projekt an, um zu erfahren, wie neue SDS Kuratoren ausgesucht werden (en): <a href=\"https://scratch.mit.edu/projects/55738732/\">https://scratch.mit.edu/projects/55738732/</a>\n        Bitte frag nicht einfach so, ob du Kurator werden kannst!\n        <br/><br/>\n\n        Hast du eine Idee für ein zukünftiges Design Studio? Besuche das unten verlinkte Studio, lies die Studiobeschreibung (en) und reiche dann deine Idee in der Form eines Scratch Projektes ein: <a href=\"http://scratch.mit.edu/studios/93627\">http://scratch.mit.edu/studios/93627</a>\n        <br/><br/>\n\n        Hast du eine Frage über das Scratch Design Studio? Schau dir den Wiki-Artikel darüber an: <a href=\"http://scratch-dach.info/wiki/Scratch_Design_Studio\">http://scratch-dach.info/wiki/Scratch_Design_Studio</a>\n        <br/><br/>\n\n        Dieser Benutzer informiert über SDS-Updates, neue Kuratoren und mehr (en)! <a href=\"https://scratch.mit.edu/users/SDS-Updates/\">@SDS-Updates</a>\n        <br/><br/>\n\n        Danke an @st19_galla und @Malik44 für das Studiobild!\n\n        <br/",
     "curators":"Die Kuratoren des SDS sind"
   }
