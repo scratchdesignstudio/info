@@ -22,6 +22,7 @@ window.onclick = function(e){
 function languageSelect(l){
   var locale = l10n[l.getAttribute('data-locale')];
   document.getElementById('dropButton').innerHTML = l.innerHTML + " ▾"; // set the button text to the selected option
-  document.getElementById('standardDescription').innerHTML = locale.standard;
-  document.getElementById('curatorString').innerHTML = locale.curators;
+  document.getElementById('standardDescription').innerHTML = locale.standard ? locale.standard : l10n['en'].standard;
+  document.getElementById('uniqueDescription').innerHTML = locale.unique ? locale.unique : l10n['en'].unique;
+  document.getElementById('curatorString').innerHTML = locale.curators ? locale.curators : l10n['en'].curators;
 }
