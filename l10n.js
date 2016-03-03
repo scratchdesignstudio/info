@@ -5,7 +5,7 @@ var l10n = {
     "curators":"The SDS is curated by"
   },
   "es": {
-    "unique":"spanish description here",
+    "unique":"¡Las reinvenciones son una parte importante de Scratch! ¡Celebremos eso en este nuevo Estudio de Diseño de Scratch!\n       <br/><br/>\n        ¡Reinventa uno de los proyectos de abajo y agrega tus propias ideas!<br/>\n       <a href=\"https://scratch.mit.edu/projects/86370044/\">https://scratch.mit.edu/projects/86370044/</a> <br/>\n        <a href=\"https://scratch.mit.edu/projects/85132566/\">https://scratch.mit.edu/projects/85132566/</a> <br/>\n        <a href=\"https://scratch.mit.edu/projects/85111610/\">https://scratch.mit.edu/projects/85111610/</a> <br/><br/>\n\n\n        Unas sugerencias para tu reinvencion es incluir:  <br/>\n        -Más objetos: ¡Podrías agregar tu propio personaje!<br/>\n        -Algunos sonidos: ¿Por qué no agregar música o efectos de sonido?<br/>\n        -Diferente historia o juego: ¡Tu reinvención no tiene que tener lo mismo! ¡Trata de cambiarla a tu gusto!<br/>\n\n        Siéntete libre de usar arte, sonidos, códigos, ideas o cualquier cosa de otros Scratchers, pero asegúrate de darles crédito!\n        <br/><br/>\n\n        ¿No sabes como reinventar un proyecto! ¡Mira este tutorial! (En inglés)\n        <a href=\"https://scratch.mit.edu/projects/96160058/\">https://scratch.mit.edu/projects/96160058/</a>\n        <br/><br/>",
     "standard":"spanish filler text",
     "curators":"Los curadores del EDS son"
   },
