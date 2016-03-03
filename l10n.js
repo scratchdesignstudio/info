@@ -5,16 +5,19 @@ var l10n = {
     "curators":"The SDS is curated by"
   },
   "es": {
+    "translator":"mundofinkyenglish",
     "unique":"¡Las reinvenciones son una parte importante de Scratch! ¡Celebremos eso en este nuevo Estudio de Diseño de Scratch!\n       <br/><br/>\n        ¡Reinventa uno de los proyectos de abajo y agrega tus propias ideas!<br/>\n       <a href=\"https://scratch.mit.edu/projects/86370044/\">https://scratch.mit.edu/projects/86370044/</a> <br/>\n        <a href=\"https://scratch.mit.edu/projects/85132566/\">https://scratch.mit.edu/projects/85132566/</a> <br/>\n        <a href=\"https://scratch.mit.edu/projects/85111610/\">https://scratch.mit.edu/projects/85111610/</a> <br/><br/>\n\n\n        Unas sugerencias para tu reinvencion es incluir:  <br/>\n        -Más objetos: ¡Podrías agregar tu propio personaje!<br/>\n        -Algunos sonidos: ¿Por qué no agregar música o efectos de sonido?<br/>\n        -Diferente historia o juego: ¡Tu reinvención no tiene que tener lo mismo! ¡Trata de cambiarla a tu gusto!<br/>\n\n        Siéntete libre de usar arte, sonidos, códigos, ideas o cualquier cosa de otros Scratchers, pero asegúrate de darles crédito!\n        <br/><br/>\n\n        ¿No sabes como reinventar un proyecto! ¡Mira este tutorial! (En inglés)\n        <a href=\"https://scratch.mit.edu/projects/96160058/\">https://scratch.mit.edu/projects/96160058/</a>\n        <br/><br/>",
     "standard":"spanish filler text",
     "curators":"Los curadores del EDS son"
   },
   "fr": {
+    "translator":"nobody",
     "unique":"french description here",
     "standard":"french filler text",
     "curators":"Le ACS est organisé par"
   },
   "de": {
+    "translator":"LiFayTheGoblin",
     "unique":"german description here",
     "standard":"Um dein Projekt dem Studio hinzuzufügen, poste bitte einen Kommentar mit dem entsprechenden Link. Du kannst den Link zu deinem Projekt finden, indem du auf der Projektseite auf 'Einbinden' klickst. Der link ist direkt unter dem Facebook-Logo.\n        <br/>\n        Reiche bitte nur ein Projekt, das nicht älter als 1 Monat ist, ein. Du kannst aber ein älteres Projekt updaten! Wenn du also ein älteres Projekt hast, das passen würde, füge einige neue Features hinzu und reiche es ein.\n        <br/>\n        Alle Projekte müssen die Community Guidelines befolgen und für alle Altersstufen angemessen sein.\n        <br/>\n        Es kann einige Zeit dauern, bis dein Projekt hinzugefügt wird. Wir bitten um Geduld - du musst den Link nicht erneut posten!\n        <br/><br/>\n\n        SDS (Scratch Design Studio) ist ein Studio, bei dem jeder Scratcher ein Projekt, das zum aktuellen Thema passt und alle Bedingungen erfüllt, einreichen kann.\n        <!-- No br here as it looks fine without -->\n        Schau dir dieses Projekt an, um zu erfahren, wie neue SDS Kuratoren ausgesucht werden (en): <a href=\"https://scratch.mit.edu/projects/55738732/\">https://scratch.mit.edu/projects/55738732/</a>\n        Bitte frag nicht einfach so, ob du Kurator werden kannst!\n        <br/><br/>\n\n        Hast du eine Idee für ein zukünftiges Design Studio? Besuche das unten verlinkte Studio, lies die Studiobeschreibung (en) und reiche dann deine Idee in der Form eines Scratch Projektes ein: <a href=\"http://scratch.mit.edu/studios/93627\">http://scratch.mit.edu/studios/93627</a>\n        <br/><br/>\n\n        Hast du eine Frage über das Scratch Design Studio? Schau dir den Wiki-Artikel darüber an: <a href=\"http://scratch-dach.info/wiki/Scratch_Design_Studio\">http://scratch-dach.info/wiki/Scratch_Design_Studio</a>\n        <br/><br/>\n\n        Dieser Benutzer informiert über SDS-Updates, neue Kuratoren und mehr (en)! <a href=\"https://scratch.mit.edu/users/SDS-Updates/\">@SDS-Updates</a>\n        <br/><br/>\n\n        Danke an @st19_galla und @CrazyNimbus für das Studiobild!\n\n        <br/",
     "curators":"Die Kuratoren des SDS sind"
