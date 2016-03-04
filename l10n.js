@@ -11,8 +11,8 @@ var l10n = {
     "curators":"Los curadores del EDS son"
   },
   "fr": {
-    "translator":"nobody.. yet",
-    "unique":"french description here",
+    "translator":"Traduction par <a href=\"https://scratch.mit.edu/users/Smrman\">@Smrman</a>",
+    "unique":"Le remix de projets est fait partie intégrante de Scratch! Célébrons-le dans ce Studio de Design Scratch!\n        <br/><br/>\n        Remixe un des projets ci-dessous, ajoute tes propres idées!<br/>\n        <a href=\"https://scratch.mit.edu/projects/86370044/\">https://scratch.mit.edu/projects/86370044/</a> <br/>\n        <a href=\"https://scratch.mit.edu/projects/85132566/\">https://scratch.mit.edu/projects/85132566/</a> <br/>\n        <a href=\"https://scratch.mit.edu/projects/85111610/\">https://scratch.mit.edu/projects/85111610/</a> <br/><br/>\n\n\n        Voici quelques suggestions que ton remix peut comporter:  <br/>\n        - Ajoute plus de lutins: Tu peux ajouter ton propre style ou tes propres détails.<br/>\n        - Des sons: Pourquoi ne pas ajouter un peu de musique?<br/>\n        - Un gameplay différent ou une histoire différente: Vos remixs ne doivent pas être les mêmes! Essaye de le personnaliser pour qu'il soit comme tu l'aimes.<br/>\n\n        Tu es libre d'utiliser les images, les sons, les scripts et les idées des autres Scratchers mais, si tu le fais, fais bien attention de ne pas oublier de donner le crédit au Scratcher concerné.\n        <br/><br/>\n\n        Tu ne sais pas comment remixer un projet? Regarde ce tutoriel!\n        <a href=\"https://scratch.mit.edu/projects/96160058/\">https://scratch.mit.edu/projects/96160058/</a> (en anglais) \n        <br/><br/>",
     "standard":"french filler text",
     "curators":"Le ACS est organisé par"
   },
