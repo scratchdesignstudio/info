@@ -20,6 +20,7 @@ window.onclick = function(e){
 
 function prep(){
   var dropdown = document.getElementById('dropOptions');
+  
   var option;
   for (var i in l10n){
     option = document.createElement('a');
