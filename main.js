@@ -18,6 +18,17 @@ window.onclick = function(e){
   }
 };
 
+function prep(){
+  var dropdown = document.getElementById('dropOptions');
+  var option;
+  for (var i in l10n){
+    option = document.createElement('a');
+    option.dataset.locale = i;
+    option.onclick = function(){languageSelect(this)};
+    option.innerHTML = l10n[i].language;
+    dropdown.appendChild(option);
+  }
+}
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
   var locale = l10n[l.getAttribute('data-locale')];

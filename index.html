@@ -7,7 +7,7 @@
     <script src='main.js'></script>
     <title>SDS Info</title>
   </head>
-  <body>
+  <body onload="prep()">
     <div class="inner" id="header">
       <ul>
         <li id="name">sds</li>
@@ -15,10 +15,6 @@
           <div class="dropdown" id="dropdown">
             <button onclick="dropit()" class="dropdownButton" id="dropButton">English ▾</button>
             <div id="dropOptions" class="dropdown-content">
-              <a data-locale="en" onclick="languageSelect(this)">English</a>
-              <a data-locale="es" onclick="languageSelect(this)">Español</a>
-              <a data-locale="fr" onclick="languageSelect(this)">Français</a>
-              <a data-locale="de" onclick="languageSelect(this)">Deutsch</a>
             </div>
           </div>
         </li>
