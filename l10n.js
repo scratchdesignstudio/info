@@ -1,4 +1,4 @@
-l10n = {
+var l10n = {
   "en": {
     "language":"English",
     "translator":" ",
