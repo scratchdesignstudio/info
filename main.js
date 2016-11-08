@@ -33,7 +33,11 @@ function prep(){
   for (var i in l10n){
     option = document.createElement('a');
     option.dataset.locale = i;
-    option.onclick = function(){hashSelect(this.getAttribute('data-locale'));};
+    option.onclick = function(){
+        var lang = this.getAttribute('data-locale');
+        location.hash = lang;
+        langSelect(lang);
+    };
     option.innerHTML = l10n[i].language;
     dropdown.appendChild(option);
   }
