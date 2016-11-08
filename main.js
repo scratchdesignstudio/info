@@ -5,6 +5,13 @@ function dropit(){
   document.getElementById("dropOptions").classList.toggle("show");
 }
 
+// read hash and adjust accordingly on page load
+window.onload = function(){
+ if(location.hash){
+   hashSelect(location.hash.substring(1)); 
+ }
+};
+
 // close the dropdown menu if the user clicks outside it
 window.onclick = function(e){
   if(!e.target.matches('.dropdownButton')){
