@@ -18,6 +18,7 @@ window.onclick = function(e){
   }
 };
 
+// creates link objects for the dropdown
 function prep(){
   var dropdown = document.getElementById('dropOptions');
   
@@ -30,6 +31,15 @@ function prep(){
     dropdown.appendChild(option);
   }
 }
+
+// so that we can select a language according to a URL hash
+function hashSelect(hash){
+  if(l10n[hash]){
+   var placeholder;
+    placeholder.dataset.locale = l10n[hash];
+  }
+}
+
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
   var locale = l10n[l.getAttribute('data-locale')];
