@@ -18,6 +18,7 @@ window.onclick = function(e){
   }
 };
 
+// creates link objects for the dropdown
 function prep(){
   var dropdown = document.getElementById('dropOptions');
   
@@ -30,6 +31,19 @@ function prep(){
     dropdown.appendChild(option);
   }
 }
+
+// so that we can select a language according to a URL hash
+function hashSelect(hash){
+  if(l10n[hash]){
+    var locale = l10n[hash];
+    document.getElementById('dropButton').innerHTML = l10n[hash].language + " ▾"; // set the button text to the selected option
+    document.getElementById('translatorCredit').innerHTML = locale.translator ? locale.translator : l10n['en'].translator;
+    document.getElementById('standardDescription').innerHTML = locale.standard ? locale.standard : l10n['en'].standard;
+    document.getElementById('uniqueDescription').innerHTML = locale.unique ? locale.unique : l10n['en'].unique;
+    document.getElementById('curatorString').innerHTML = locale.curators ? locale.curators : l10n['en'].curators;
+  }
+}
+
 // when the user selects an option from the dropdown menu
 function languageSelect(l){
   var locale = l10n[l.getAttribute('data-locale')];
