@@ -35,9 +35,10 @@ function prep(){
 // so that we can select a language according to a URL hash
 function hashSelect(hash){
   if(l10n[hash]){
-     var placeholder;
-     placeholder.dataset.locale = l10n[hash];
-     languageSelect(placeholder);
+    var placeholder;
+    placeholder = document.createElement('a'); // just so that we can use dataset
+    placeholder.dataset.locale = l10n[hash];
+    languageSelect(placeholder);
   }
 }
 
