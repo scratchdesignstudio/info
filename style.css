@@ -136,6 +136,14 @@ a:active {
   font-size: 1rem;
   border: none;
   cursor: pointer;
+
+  /* Vertically center text */
+  display: flex;
+  flex-align: center;
+}
+
+.dropdownIcon {
+  margin-right: 5px;
 }
 
 /* Dropdown button on hover & focus */
