@@ -180,6 +180,8 @@ a:active {
   display: block;
 }
 
+.material-icons.md-18 { font-size: 18px; }
+
 /*
 ui-blue - #25AFF4
 ui-orange - #F49D25
